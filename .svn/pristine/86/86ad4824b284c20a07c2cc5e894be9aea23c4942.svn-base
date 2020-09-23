@@ -1,0 +1,148 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+									"scrollIndicator": "none"
+								}
+			}
+		},{
+			"path" : "pages/my/my",
+			"style" : {
+				"navigationBarTitleText": "我的"
+			}
+    },{
+			"path" : "pages/order/order",
+			"style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+		}
+		,{
+			"path" : "pages/activityinput/activityinput",
+			"style" : {
+				"navigationBarTitleText": "发起活动"
+			}
+		}
+        ,{
+            "path" : "pages/matchInfo/matchInfo",
+            "style" : {
+				"navigationBarTitleText": "赛事详情"
+			}
+        }
+        ,{
+            "path" : "pages/orderdetail/orderdetail",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/topay/topay",
+            "style" : {
+				"navigationBarTitleText": "支付方式"
+			}
+        }
+        ,{
+            "path" : "pages/inputorder/inputorder",
+            "style" : {
+				"navigationBarTitleText": "填写订单"
+			}
+        }
+        ,{
+            "path" : "pages/addman/addman",
+            "style" : {
+				"navigationBarTitleText": "编辑联系人"
+			}
+        }
+        ,{
+            "path" : "pages/addcar/addcar",
+            "style" : {
+				"navigationBarTitleText": "编辑车辆"
+			}
+        }
+        ,{
+            "path" : "pages/signlist/signlist",
+            "style" : {
+				"navigationBarTitleText": "活动报名列表"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+							"navigationBarTitleText": "登录"
+						}
+        }
+        ,{
+            "path" : "pages/inputorder1/inputorder1",
+            "style" : {
+				"navigationBarTitleText": "填写订单"
+			}
+        }
+        ,{
+            "path" : "pages/orderdetail1/orderdetail1",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/myacvitity/myacvitity",
+            "style" : {
+							"navigationBarTitleText": "我的活动"
+						}
+        }
+        ,{
+            "path" : "pages/editactivity/editactivity",
+            "style" : {
+							"navigationBarTitleText": "编辑活动"
+						}
+        }
+        ,{
+            "path" : "pages/signlist_match/signlist_match",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/inputorder2/inputorder2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/inputorder2-pay/inputorder2-pay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/inputorder2-pay-result/inputorder2-pay-result",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "活动",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#222"
+	},
+	"tabBar":{
+		"color": "#8a8a8a",
+		"selectedColor": "#dc0024",
+		"borderStyle": "black",
+		"backgroundColor": "#2a2a2a",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/toolbar_homepage.png",
+			"selectedIconPath": "static/images/tabbar/toolbar_homepagehighlight.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/order/order",
+			"iconPath": "static/images/tabbar/toolbar_menu.png",
+			"selectedIconPath": "static/images/tabbar/toolbar_menuhighlight.png",
+			"text": "订单"
+		},{
+			"pagePath": "pages/activityinput/activityinput",
+			"iconPath": "static/images/tabbar/publish.png",
+			"selectedIconPath": "static/images/tabbar/publish_highlighted.png",
+			"text": "活动发布"
+		},{
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/tabbar/toolbar_mine.png",
+			"selectedIconPath": "static/images/tabbar/toolbar_minehighlight.png",
+			"text": "我的"
+		}]
+	}
+}
